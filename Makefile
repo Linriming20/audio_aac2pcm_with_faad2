@@ -1,5 +1,5 @@
 src := aac_adts.c aac_adts.h main.c
-static_lib := lib/libfaad.a lib/libfaad_drm.a
+static_lib := lib/libfaad.a #lib/libfaad_drm.a
 
 CC := gcc
 CFLAGS := -I./include

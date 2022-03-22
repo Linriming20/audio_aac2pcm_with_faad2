@@ -20,7 +20,7 @@ make install
 
 ```bash
 $ make clean && make
-$
+$ 
 $ ./aac2pcm 
 Usage:
     ./aac2pcm <in aac file> <out pcm file>
@@ -55,8 +55,7 @@ $ tree
 │   ├── faad.h
 │   └── neaacdec.h
 ├── lib
-│   ├── libfaad.a
-│   └── libfaad_drm.a
+│   └── libfaad.a
 ├── main.c
 ├── Makefile
 └── README.md
